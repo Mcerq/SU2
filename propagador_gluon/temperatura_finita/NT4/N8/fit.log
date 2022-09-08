@@ -1,0 +1,238 @@
+
+
+*******************************************************************************
+Wed Mar 11 10:01:41 2020
+
+
+FIT:    data read from "gluon_media_propagadortransfisico_N8_NT4_beta2.2989500_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 5
+function used for fitting: f(x)
+	f(x) = C1*((1+d1*x**(2*z1))/((x**2+a1)**2+b1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C1            d1            a1            b1            z1           
+   0 6.6774617057e+00   0.00e+00  1.49e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+1526 3.0613288577e-03  -2.57e-01  1.49e-03    2.191465e-01   4.484814e+00  -1.323046e-03   2.326262e-01   9.171122e-01
+
+After 1526 iterations the fit converged.
+final sum of squares of residuals : 0.00306133
+rel. change during last iteration : -2.56501e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+C1              = 0.219146       
+d1              = 4.48481        
+a1              = -0.00132305    
+b1              = 0.232626       
+z1              = 0.917112       
+
+
+*******************************************************************************
+Wed Mar 11 10:01:41 2020
+
+
+FIT:    data read from "gluon_media_propagadortransfisico_N8_NT4_beta2.3048581_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 5
+function used for fitting: g(x)
+	g(x) = C2*((1+d2*x**(2*z2))/((x**2+a2)**2+b2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C2            d2            a2            b2            z2           
+   0 6.7427809261e+00   0.00e+00  1.50e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 158 7.5204804338e-31   0.00e+00  1.50e+00    3.699216e+00   1.448494e-02   5.844335e-01   7.154881e-01   2.160269e+00
+
+After 158 iterations the fit converged.
+final sum of squares of residuals : 7.52048e-31
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+C2              = 3.69922        
+d2              = 0.0144849      
+a2              = 0.584433       
+b2              = 0.715488       
+z2              = 2.16027        
+
+
+*******************************************************************************
+Wed Mar 11 10:01:41 2020
+
+
+FIT:    data read from "gluon_media_propagadortransfisico_N8_NT4_beta2.3135185_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 5
+function used for fitting: h(x)
+	h(x) = C3*((1+d3*x**(2*z3))/((x**2+a3)**2+b3**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C3            d3            a3            b3            z3           
+   0 6.2667411515e+00   0.00e+00  1.67e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 167 1.6735836443e-04  -9.98e-01  1.67e-02    4.977777e-01   2.955769e+00   3.533912e-01  -1.762735e-02   7.128748e-01
+
+After 167 iterations the fit converged.
+final sum of squares of residuals : 0.000167358
+rel. change during last iteration : -9.98333e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+C3              = 0.497778       
+d3              = 2.95577        
+a3              = 0.353391       
+b3              = -0.0176273     
+z3              = 0.712875       
+
+
+*******************************************************************************
+Wed Mar 11 10:01:41 2020
+
+
+FIT:    data read from "gluon_media_propagadortransfisico_N8_NT4_beta2.3274471_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 5
+function used for fitting: i(x)
+	i(x) = C4*((1+d4*x**(2*z4))/((x**2+a4)**2+b4**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C4            d4            a4            b4            z4           
+   0 5.8424205349e+00   0.00e+00  1.75e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+1474 4.7294602519e-03  -9.99e-01  1.75e-02    3.512540e-01   3.384693e+00   1.847272e-01  -2.551349e-01   8.232864e-01
+
+After 1474 iterations the fit converged.
+final sum of squares of residuals : 0.00472946
+rel. change during last iteration : -9.99269e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+C4              = 0.351254       
+d4              = 3.38469        
+a4              = 0.184727       
+b4              = -0.255135      
+z4              = 0.823286       
+
+
+*******************************************************************************
+Wed Mar 11 10:01:41 2020
+
+
+FIT:    data read from "gluon_media_propagadortransfisico_N8_NT4_beta2.3535978_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 5
+function used for fitting: j(x)
+	j(x) = C5*((1+d5*x**(2*z5))/((x**2+a5)**2+b5**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C5            d5            a5            b5            z5           
+   0 6.1863425007e+00   0.00e+00  1.87e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 396 4.6515169603e-05  -9.76e-01  1.87e-02    3.251686e-01   1.629494e+00  -2.857078e-01  -4.712295e-03   1.164550e+00
+
+After 396 iterations the fit converged.
+final sum of squares of residuals : 4.65152e-05
+rel. change during last iteration : -9.75963e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+C5              = 0.325169       
+d5              = 1.62949        
+a5              = -0.285708      
+b5              = -0.00471229    
+z5              = 1.16455        
+
+
+*******************************************************************************
+Wed Mar 11 10:01:41 2020
+
+
+FIT:    data read from "gluon_media_propagadortransfisico_N8_NT4_beta2.4212325_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 5
+function used for fitting: k(x)
+	k(x) = C6*((1+d6*x**(2*z6))/((x**2+a6)**2+b6**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C6            d6            a6            b6            z6           
+   0 5.8439139012e+00   0.00e+00  2.65e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  94 4.3950155396e-03  -9.63e-02  2.65e-02    1.890760e-01   4.659628e+00  -2.392713e-01  -2.490272e-02   9.133180e-01
+
+After 94 iterations the fit converged.
+final sum of squares of residuals : 0.00439502
+rel. change during last iteration : -9.62627e-07
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+C6              = 0.189076       
+d6              = 4.65963        
+a6              = -0.239271      
+b6              = -0.0249027     
+z6              = 0.913318       
+
+
+*******************************************************************************
+Wed Mar 11 10:01:42 2020
+
+
+FIT:    data read from "gluon_media_propagadortransfisico_N8_NT4_beta2.5095845_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 5
+function used for fitting: l(x)
+	l(x) = C7*((1+d7*x**(2*z7))/((x**2+a7)**2+b7**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C7            d7            a7            b7            z7           
+   0 5.0656320451e+00   0.00e+00  3.30e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 501 3.1442316711e-02  -9.88e-01  3.30e-02    6.138426e-01   1.285585e+00  -5.286083e-01   9.034771e-02   9.557879e-01
+
+After 501 iterations the fit converged.
+final sum of squares of residuals : 0.0314423
+rel. change during last iteration : -9.88386e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+C7              = 0.613843       
+d7              = 1.28558        
+a7              = -0.528608      
+b7              = 0.0903477      
+z7              = 0.955788       
