@@ -1,0 +1,36 @@
+set xrange [-0.1:6.0]
+set yrange [-0.1:70.0]
+set ylabel "D_L(p^2)/a^2 [Gev^{-2}]"   font ", 12"
+set xlabel "ap [GeV]"   font ", 12"
+set title "Gluon Propagator; 12^3 4"  font ",14"
+set tics font ", 12"
+set key font ",12"
+f(x) = C1*((1+d1*x**(2*z1))/((x**2+a1)**2+b1**2))
+g(x) = C2*((1+d2*x**(2*z2))/((x**2+a2)**2+b2**2))
+h(x) = C3*((1+d3*x**(2*z3))/((x**2+a3)**2+b3**2))
+i(x) = C4*((1+d4*x**(2*z4))/((x**2+a4)**2+b4**2))
+j(x) = C5*((1+d5*x**(2*z5))/((x**2+a5)**2+b5**2))
+k(x) = C6*((1+d6*x**(2*z6))/((x**2+a6)**2+b6**2))
+l(x) = C7*((1+d7*x**(2*z7))/((x**2+a7)**2+b7**2))
+plot "gluon_media_propagadorlongfisico_N12_NT4_beta2.2989500_momento1.txt" using 4:5:6 t "T/T_c = 1.00" with yerrorbars pt 7 lc 1
+rep "gluon_media_propagadorlongfisico_N12_NT4_beta2.3048581_momento1.txt" using 4:5:6 t "T/T_c = 1.02" with yerrorbars pt 7 lc 2
+rep "gluon_media_propagadorlongfisico_N12_NT4_beta2.3135185_momento1.txt" using 4:5:6 t "T/T_c = 1.05" with yerrorbars pt 7 lc 3
+rep "gluon_media_propagadorlongfisico_N12_NT4_beta2.3274471_momento1.txt" using 4:5:6 t "T/T_c = 1.10" with yerrorbars pt 7 lc 8	
+rep "gluon_media_propagadorlongfisico_N12_NT4_beta2.3535978_momento1.txt" using 4:5:6 t "T/T_c = 1.20" with yerrorbars pt 7 lc 5
+rep "gluon_media_propagadorlongfisico_N12_NT4_beta2.4212325_momento1.txt" using 4:5:6 t "T/T_c = 1.50" with yerrorbars pt 7 lc 6	
+rep "gluon_media_propagadorlongfisico_N12_NT4_beta2.5095845_momento1.txt" using 4:5:6 t "T/T_c = 2.00" with yerrorbars pt 7 lc 7
+fit f(x) "gluon_media_propagadorlongfisico_N12_NT4_beta2.2989500_momento1.txt" using 4:5:6 via C1, d1, a1, b1, z1
+fit g(x) "gluon_media_propagadorlongfisico_N12_NT4_beta2.3048581_momento1.txt" using 4:5:6 via C2, d2, a2, b2, z2
+fit h(x) "gluon_media_propagadorlongfisico_N12_NT4_beta2.3135185_momento1.txt" using 4:5:6 via C3, d3, a3, b3, z3
+fit i(x) "gluon_media_propagadorlongfisico_N12_NT4_beta2.3274471_momento1.txt" using 4:5:6 via C4, d4, a4, b4, z4
+fit j(x) "gluon_media_propagadorlongfisico_N12_NT4_beta2.3535978_momento1.txt" using 4:5:6 via C5, d5, a5, b5, z5
+fit k(x) "gluon_media_propagadorlongfisico_N12_NT4_beta2.4212325_momento1.txt" using 4:5:6 via C6, d6, a6, b6, z6
+fit l(x) "gluon_media_propagadorlongfisico_N12_NT4_beta2.5095845_momento1.txt" using 4:5:6 via C7, d7, a7, b7, z7
+rep f(x) notitle lc 1 lw 2
+rep g(x) notitle lc 2 lw 2
+rep h(x) notitle lc 3 lw 2
+rep i(x) notitle lc 8 lw 2
+rep j(x) notitle lc 5 lw 2
+rep k(x) notitle lc 6 lw 2
+rep l(x) notitle lc 7 lw 2
+#

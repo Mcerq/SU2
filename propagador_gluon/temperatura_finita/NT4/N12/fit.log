@@ -1,0 +1,882 @@
+
+
+*******************************************************************************
+Sun Feb  4 20:20:53 2018
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.2989500_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: f(x)
+	f(x) = C1*((1+d1*x**(2*z1))/((x**2+a1)**2+b1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C1            d1            a1            b1            z1           
+   0 1.2517155687e+01   0.00e+00  1.41e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  40 4.9013225464e-02  -9.05e-01  1.41e-02    1.626984e+00   6.000516e-01   8.325347e-02   2.163853e-01   7.947654e-01
+
+After 40 iterations the fit converged.
+final sum of squares of residuals : 0.0490132
+rel. change during last iteration : -9.04861e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.156546
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0245066
+p-value of the Chisq distribution (FIT_P)              : 0.975791
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C1              = 1.62698          +/- 3.354        (206.2%)
+d1              = 0.600052         +/- 2.464        (410.7%)
+a1              = 0.0832535        +/- 0.214        (257.1%)
+b1              = 0.216385         +/- 0.1767       (81.64%)
+z1              = 0.794765         +/- 0.7322       (92.13%)
+
+correlation matrix of the fit parameters:
+                C1     d1     a1     b1     z1     
+C1              1.000 
+d1             -0.998  1.000 
+a1              0.979 -0.966  1.000 
+b1              0.993 -0.997  0.951  1.000 
+z1              0.983 -0.992  0.931  0.991  1.000 
+
+
+*******************************************************************************
+Sun Feb  4 20:20:53 2018
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3048581_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: g(x)
+	g(x) = C2*((1+d2*x**(2*z2))/((x**2+a2)**2+b2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C2            d2            a2            b2            z2           
+   0 1.0075025664e+01   0.00e+00  1.40e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  13 1.8716549274e-03  -1.05e-03  1.40e-06    9.866962e-01   7.398575e-01   3.739991e-02   4.099579e-01   1.051733e+00
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 0.00187165
+rel. change during last iteration : -1.05306e-08
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0305913
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000935827
+p-value of the Chisq distribution (FIT_P)              : 0.999065
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C2              = 0.986696         +/- 0.2827       (28.65%)
+d2              = 0.739857         +/- 0.3604       (48.72%)
+a2              = 0.0373999        +/- 0.01806      (48.29%)
+b2              = 0.409958         +/- 0.05796      (14.14%)
+z2              = 1.05173          +/- 0.0832       (7.911%)
+
+correlation matrix of the fit parameters:
+                C2     d2     a2     b2     z2     
+C2              1.000 
+d2             -0.996  1.000 
+a2              0.783 -0.729  1.000 
+b2              0.998 -0.996  0.760  1.000 
+z2              0.959 -0.981  0.607  0.963  1.000 
+
+
+*******************************************************************************
+Sun Feb  4 20:20:53 2018
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3135185_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: h(x)
+	h(x) = C3*((1+d3*x**(2*z3))/((x**2+a3)**2+b3**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C3            d3            a3            b3            z3           
+   0 9.9213159165e+00   0.00e+00  1.45e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  24 3.8249763735e-02  -5.30e-02  1.45e-05    3.104585e+00   7.351084e-02   3.903739e-01   5.805037e-01   1.496191e+00
+
+After 24 iterations the fit converged.
+final sum of squares of residuals : 0.0382498
+rel. change during last iteration : -5.30352e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.138293
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0191249
+p-value of the Chisq distribution (FIT_P)              : 0.981057
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C3              = 3.10459          +/- 1.911        (61.57%)
+d3              = 0.0735108        +/- 0.1676       (228.1%)
+a3              = 0.390374         +/- 0.3522       (90.21%)
+b3              = 0.580504         +/- 0.07584      (13.06%)
+z3              = 1.49619          +/- 0.7082       (47.33%)
+
+correlation matrix of the fit parameters:
+                C3     d3     a3     b3     z3     
+C3              1.000 
+d3             -0.974  1.000 
+a3              0.971 -0.906  1.000 
+b3              0.340 -0.471  0.119  1.000 
+z3              0.934 -0.990  0.849  0.522  1.000 
+
+
+*******************************************************************************
+Sun Feb  4 20:20:53 2018
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3274471_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: i(x)
+	i(x) = C4*((1+d4*x**(2*z4))/((x**2+a4)**2+b4**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C4            d4            a4            b4            z4           
+   0 7.8946096452e+00   0.00e+00  1.64e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 169 4.8731007729e-03  -4.05e-01  1.64e-03    5.396515e+00   1.677497e-02   1.199600e+00   2.951319e-01   1.791919e+00
+
+After 169 iterations the fit converged.
+final sum of squares of residuals : 0.0048731
+rel. change during last iteration : -4.05033e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0493614
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00243655
+p-value of the Chisq distribution (FIT_P)              : 0.997566
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C4              = 5.39651          +/- 1.588        (29.42%)
+d4              = 0.016775         +/- 0.02713      (161.7%)
+a4              = 1.1996           +/- 0.448        (37.35%)
+b4              = 0.295132         +/- 1.09         (369.3%)
+z4              = 1.79192          +/- 0.5393       (30.1%)
+
+correlation matrix of the fit parameters:
+                C4     d4     a4     b4     z4     
+C4              1.000 
+d4             -0.966  1.000 
+a4              0.990 -0.929  1.000 
+b4             -0.966  0.884 -0.992  1.000 
+z4              0.936 -0.995  0.892 -0.842  1.000 
+
+
+*******************************************************************************
+Sun Feb  4 20:20:53 2018
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3535978_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: j(x)
+	j(x) = C5*((1+d5*x**(2*z5))/((x**2+a5)**2+b5**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C5            d5            a5            b5            z5           
+   0 6.2640703987e+00   0.00e+00  1.90e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  57 9.4154167548e-02  -7.33e-01  1.90e-02    4.805249e+00   3.651131e-02   1.347637e+00  -2.659880e-03   1.525980e+00
+
+After 57 iterations the fit converged.
+final sum of squares of residuals : 0.0941542
+rel. change during last iteration : -7.33401e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.216973
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0470771
+p-value of the Chisq distribution (FIT_P)              : 0.954014
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C5              = 4.80525          +/- 9.251        (192.5%)
+d5              = 0.0365113        +/- 0.2379       (651.6%)
+a5              = 1.34764          +/- 2.974        (220.7%)
+b5              = -0.00265988      +/- 864.3        (3.25e+07%)
+z5              = 1.52598          +/- 1.724        (113%)
+
+correlation matrix of the fit parameters:
+                C5     d5     a5     b5     z5     
+C5              1.000 
+d5             -0.980  1.000 
+a5              0.993 -0.955  1.000 
+b5              0.975 -0.922  0.994  1.000 
+z5              0.949 -0.993  0.915  0.875  1.000 
+
+
+*******************************************************************************
+Sun Feb  4 20:20:53 2018
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.4212325_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: k(x)
+	k(x) = C6*((1+d6*x**(2*z6))/((x**2+a6)**2+b6**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C6            d6            a6            b6            z6           
+   0 3.4761906258e+00   0.00e+00  2.55e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 271 4.8306248226e-02  -9.99e-01  2.55e-02    5.716532e+00   2.220100e-02   2.052613e+00   1.210654e-01   1.599490e+00
+
+After 271 iterations the fit converged.
+final sum of squares of residuals : 0.0483062
+rel. change during last iteration : -9.99104e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.155413
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0241531
+p-value of the Chisq distribution (FIT_P)              : 0.976136
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C6              = 5.71653          +/- 7.653        (133.9%)
+d6              = 0.022201         +/- 0.08386      (377.7%)
+a6              = 2.05261          +/- 3.218        (156.8%)
+b6              = 0.121065         +/- 31.7         (2.618e+04%)
+z6              = 1.59949          +/- 0.8268       (51.69%)
+
+correlation matrix of the fit parameters:
+                C6     d6     a6     b6     z6     
+C6              1.000 
+d6             -0.974  1.000 
+a6              0.993 -0.947  1.000 
+b6             -0.976  0.914 -0.994  1.000 
+z6              0.932 -0.989  0.895 -0.853  1.000 
+
+
+*******************************************************************************
+Sun Feb  4 20:20:53 2018
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.5095845_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: l(x)
+	l(x) = C7*((1+d7*x**(2*z7))/((x**2+a7)**2+b7**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C7            d7            a7            b7            z7           
+   0 2.2466068666e+00   0.00e+00  3.51e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 139 2.0854877153e-02  -9.86e-01  3.51e-02    1.592963e+00   7.798837e-01   1.612931e+00   3.449943e-01   8.440627e-01
+
+After 139 iterations the fit converged.
+final sum of squares of residuals : 0.0208549
+rel. change during last iteration : -9.86081e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.102115
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0104274
+p-value of the Chisq distribution (FIT_P)              : 0.989627
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C7              = 1.59296          +/- 10.48        (658%)
+d7              = 0.779884         +/- 6.379        (818%)
+a7              = 1.61293          +/- 2.04         (126.5%)
+b7              = 0.344994         +/- 17.5         (5073%)
+z7              = 0.844063         +/- 0.3915       (46.39%)
+
+correlation matrix of the fit parameters:
+                C7     d7     a7     b7     z7     
+C7              1.000 
+d7             -0.998  1.000 
+a7              0.925 -0.903  1.000 
+b7              0.978 -0.988  0.826  1.000 
+z7              0.948 -0.964  0.759  0.991  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:20 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.2989500_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: f(x)
+	f(x) = C1*((1+d1*x**(2*z1))/((x**2+a1)**2+b1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C1            d1            a1            b1            z1           
+   0 1.2022049707e+01   0.00e+00  1.45e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+1014 1.7577276662e-02  -1.80e-01  1.45e-03    1.987180e-01   7.653643e+00  -6.580460e-03   9.236848e-02   6.881725e-01
+
+After 1014 iterations the fit converged.
+final sum of squares of residuals : 0.0175773
+rel. change during last iteration : -1.79855e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0937477
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00878864
+p-value of the Chisq distribution (FIT_P)              : 0.99125
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C1              = 0.198718         +/- 1.919        (965.5%)
+d1              = 7.65364          +/- 80.52        (1052%)
+a1              = -0.00658046      +/- 0.09908      (1506%)
+b1              = 0.0923685        +/- 0.4557       (493.4%)
+z1              = 0.688172         +/- 0.2983       (43.34%)
+
+correlation matrix of the fit parameters:
+                C1     d1     a1     b1     z1     
+C1              1.000 
+d1             -1.000  1.000 
+a1              0.969 -0.967  1.000 
+b1              1.000 -1.000  0.969  1.000 
+z1              0.986 -0.988  0.918  0.986  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:21 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3048581_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: g(x)
+	g(x) = C2*((1+d2*x**(2*z2))/((x**2+a2)**2+b2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C2            d2            a2            b2            z2           
+   0 1.1997245717e+01   0.00e+00  1.44e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  27 1.9922725878e-03  -1.93e-04  1.44e-05    2.083581e+00   2.217438e-01   1.187733e-01  -2.493322e-01   1.159678e+00
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 0.00199227
+rel. change during last iteration : -1.93014e-09
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0315616
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000996136
+p-value of the Chisq distribution (FIT_P)              : 0.999004
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C2              = 2.08358          +/- 0.3362       (16.14%)
+d2              = 0.221744         +/- 0.1008       (45.47%)
+a2              = 0.118773         +/- 0.037        (31.15%)
+b2              = -0.249332        +/- 0.008611     (3.454%)
+z2              = 1.15968          +/- 0.1218       (10.51%)
+
+correlation matrix of the fit parameters:
+                C2     d2     a2     b2     z2     
+C2              1.000 
+d2             -0.990  1.000 
+a2              0.980 -0.951  1.000 
+b2             -0.854  0.887 -0.745  1.000 
+z2              0.961 -0.990  0.906 -0.897  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:21 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3135185_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: h(x)
+	h(x) = C3*((1+d3*x**(2*z3))/((x**2+a3)**2+b3**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C3            d3            a3            b3            z3           
+   0 1.2273125073e+01   0.00e+00  1.53e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  34 1.0588724909e-02  -2.27e-03  1.53e-05    1.796002e+00   3.600859e-01   3.999418e-02  -1.969998e-01   9.888883e-01
+
+After 34 iterations the fit converged.
+final sum of squares of residuals : 0.0105887
+rel. change during last iteration : -2.26984e-08
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0727624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00529436
+p-value of the Chisq distribution (FIT_P)              : 0.99472
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C3              = 1.796            +/- 0.921        (51.28%)
+d3              = 0.360086         +/- 0.4383       (121.7%)
+a3              = 0.0399942        +/- 0.07435      (185.9%)
+b3              = -0.197           +/- 0.03803      (19.31%)
+z3              = 0.988888         +/- 0.2724       (27.55%)
+
+correlation matrix of the fit parameters:
+                C3     d3     a3     b3     z3     
+C3              1.000 
+d3             -0.995  1.000 
+a3              0.983 -0.965  1.000 
+b3             -0.993  0.993 -0.961  1.000 
+z3              0.973 -0.991  0.928 -0.978  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:21 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3274471_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: i(x)
+	i(x) = C4*((1+d4*x**(2*z4))/((x**2+a4)**2+b4**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C4            d4            a4            b4            z4           
+   0 1.2287130087e+01   0.00e+00  1.75e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  32 1.0293688867e-02  -1.30e-03  1.75e-05    3.036397e+00   8.355824e-02   1.282731e-01  -2.007378e-01   1.267637e+00
+
+After 32 iterations the fit converged.
+final sum of squares of residuals : 0.0102937
+rel. change during last iteration : -1.30327e-08
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0717415
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00514684
+p-value of the Chisq distribution (FIT_P)              : 0.994866
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C4              = 3.0364           +/- 0.6981       (22.99%)
+d4              = 0.0835582        +/- 0.09487      (113.5%)
+a4              = 0.128273         +/- 0.0698       (54.42%)
+b4              = -0.200738        +/- 0.01579      (7.868%)
+z4              = 1.26764          +/- 0.3594       (28.35%)
+
+correlation matrix of the fit parameters:
+                C4     d4     a4     b4     z4     
+C4              1.000 
+d4             -0.980  1.000 
+a4              0.976 -0.933  1.000 
+b4              0.706 -0.622  0.830  1.000 
+z4              0.953 -0.993  0.896  0.572  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:21 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3535978_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: j(x)
+	j(x) = C5*((1+d5*x**(2*z5))/((x**2+a5)**2+b5**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C5            d5            a5            b5            z5           
+   0 6.2587679750e+00   0.00e+00  1.92e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 484 9.4992737266e-03  -9.90e-01  1.92e-02    5.014747e+00   6.791960e-02   1.408825e+00   3.044938e-01   1.219793e+00
+
+After 484 iterations the fit converged.
+final sum of squares of residuals : 0.00949927
+rel. change during last iteration : -9.90412e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0689176
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00474964
+p-value of the Chisq distribution (FIT_P)              : 0.995262
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C5              = 5.01475          +/- 5.787        (115.4%)
+d5              = 0.0679196        +/- 0.2342       (344.8%)
+a5              = 1.40883          +/- 1.575        (111.8%)
+b5              = 0.304494         +/- 3.411        (1120%)
+z5              = 1.21979          +/- 0.7718       (63.28%)
+
+correlation matrix of the fit parameters:
+                C5     d5     a5     b5     z5     
+C5              1.000 
+d5             -0.992  1.000 
+a5              0.995 -0.975  1.000 
+b5             -0.975  0.941 -0.992  1.000 
+z5              0.972 -0.994  0.947 -0.903  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:21 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.4212325_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: k(x)
+	k(x) = C6*((1+d6*x**(2*z6))/((x**2+a6)**2+b6**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C6            d6            a6            b6            z6           
+   0 3.3117680131e+00   0.00e+00  2.55e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 465 4.5357046556e-02  -9.99e-01  2.55e-02    4.021496e-01   2.613370e+00   4.422923e-01   3.728895e-01   9.000537e-01
+
+After 465 iterations the fit converged.
+final sum of squares of residuals : 0.045357
+rel. change during last iteration : -9.98899e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.150594
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0226785
+p-value of the Chisq distribution (FIT_P)              : 0.977577
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C6              = 0.40215          +/- 4.763        (1184%)
+d6              = 2.61337          +/- 34.64        (1326%)
+a6              = 0.442292         +/- 0.5643       (127.6%)
+b6              = 0.37289          +/- 4.77         (1279%)
+z6              = 0.900054         +/- 0.4207       (46.74%)
+
+correlation matrix of the fit parameters:
+                C6     d6     a6     b6     z6     
+C6              1.000 
+d6             -1.000  1.000 
+a6              0.838 -0.823  1.000 
+b6              0.997 -0.999  0.793  1.000 
+z6              0.958 -0.965  0.651  0.976  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:21 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.5095845_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: l(x)
+	l(x) = C7*((1+d7*x**(2*z7))/((x**2+a7)**2+b7**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C7            d7            a7            b7            z7           
+   0 1.9864812266e+00   0.00e+00  3.43e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+1042 6.2161825590e-03  -2.27e-01  3.43e-04    8.994573e+00   1.554646e-02   2.787929e+00   2.531967e+00   1.429753e+00
+
+After 1042 iterations the fit converged.
+final sum of squares of residuals : 0.00621618
+rel. change during last iteration : -2.26767e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0557503
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00310809
+p-value of the Chisq distribution (FIT_P)              : 0.996897
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C7              = 8.99457          +/- 4.832        (53.73%)
+d7              = 0.0155465        +/- 0.02678      (172.3%)
+a7              = 2.78793          +/- 1.7          (60.98%)
+b7              = 2.53197          +/- 0.4773       (18.85%)
+z7              = 1.42975          +/- 0.3234       (22.62%)
+
+correlation matrix of the fit parameters:
+                C7     d7     a7     b7     z7     
+C7              1.000 
+d7             -0.976  1.000 
+a7              0.989 -0.937  1.000 
+b7             -0.751  0.616 -0.839  1.000 
+z7              0.940 -0.992  0.888 -0.533  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:55 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.2989500_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: f(x)
+	f(x) = C1*((1+d1*x**(2*z1))/((x**2+a1)**2+b1**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C1            d1            a1            b1            z1           
+   0 1.7577276662e-02   0.00e+00  1.78e+00    1.987180e-01   7.653643e+00  -6.580460e-03   9.236848e-02   6.881725e-01
+ 610 1.7151086981e-02  -1.00e+00  1.78e-02    8.554525e-02   1.871786e+01  -1.196690e-02   5.956241e-02   6.710139e-01
+
+After 610 iterations the fit converged.
+final sum of squares of residuals : 0.0171511
+rel. change during last iteration : -9.99904e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0926042
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00857554
+p-value of the Chisq distribution (FIT_P)              : 0.991461
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C1              = 0.0855453        +/- 1.953        (2283%)
+d1              = 18.7179          +/- 443.4        (2369%)
+a1              = -0.0119669       +/- 0.09451      (789.8%)
+b1              = 0.0595624        +/- 0.7268       (1220%)
+z1              = 0.671014         +/- 0.2908       (43.34%)
+
+correlation matrix of the fit parameters:
+                C1     d1     a1     b1     z1     
+C1              1.000 
+d1             -1.000  1.000 
+a1              0.965 -0.964  1.000 
+b1              1.000 -1.000  0.967  1.000 
+z1              0.987 -0.987  0.913  0.986  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:55 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3048581_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: g(x)
+	g(x) = C2*((1+d2*x**(2*z2))/((x**2+a2)**2+b2**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C2            d2            a2            b2            z2           
+   0 1.9922725878e-03   0.00e+00  1.67e+00    2.083581e+00   2.217438e-01   1.187733e-01  -2.493322e-01   1.159678e+00
+   1 1.9922725878e-03  -1.98e-09  1.67e+00    2.083581e+00   2.217438e-01   1.187733e-01  -2.493322e-01   1.159678e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00199227
+rel. change during last iteration : -1.9809e-14
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0315616
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000996136
+p-value of the Chisq distribution (FIT_P)              : 0.999004
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C2              = 2.08358          +/- 0.3362       (16.14%)
+d2              = 0.221744         +/- 0.1008       (45.47%)
+a2              = 0.118773         +/- 0.037        (31.15%)
+b2              = -0.249332        +/- 0.008611     (3.454%)
+z2              = 1.15968          +/- 0.1218       (10.51%)
+
+correlation matrix of the fit parameters:
+                C2     d2     a2     b2     z2     
+C2              1.000 
+d2             -0.990  1.000 
+a2              0.980 -0.951  1.000 
+b2             -0.854  0.887 -0.745  1.000 
+z2              0.961 -0.990  0.906 -0.897  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:55 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3135185_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: h(x)
+	h(x) = C3*((1+d3*x**(2*z3))/((x**2+a3)**2+b3**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C3            d3            a3            b3            z3           
+   0 1.0588724909e-02   0.00e+00  1.68e+00    1.796002e+00   3.600859e-01   3.999418e-02  -1.969998e-01   9.888883e-01
+   1 1.0588724909e-02  -1.24e-07  1.68e+00    1.796002e+00   3.600859e-01   3.999418e-02  -1.969998e-01   9.888883e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.0105887
+rel. change during last iteration : -1.24263e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0727624
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00529436
+p-value of the Chisq distribution (FIT_P)              : 0.99472
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C3              = 1.796            +/- 0.921        (51.28%)
+d3              = 0.360086         +/- 0.4383       (121.7%)
+a3              = 0.0399942        +/- 0.07435      (185.9%)
+b3              = -0.197           +/- 0.03803      (19.31%)
+z3              = 0.988888         +/- 0.2724       (27.55%)
+
+correlation matrix of the fit parameters:
+                C3     d3     a3     b3     z3     
+C3              1.000 
+d3             -0.995  1.000 
+a3              0.983 -0.965  1.000 
+b3             -0.993  0.993 -0.961  1.000 
+z3              0.973 -0.991  0.928 -0.978  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:55 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3274471_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: i(x)
+	i(x) = C4*((1+d4*x**(2*z4))/((x**2+a4)**2+b4**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C4            d4            a4            b4            z4           
+   0 1.0293688867e-02   0.00e+00  1.57e+00    3.036397e+00   8.355824e-02   1.282731e-01  -2.007378e-01   1.267637e+00
+   1 1.0293688867e-02  -8.51e-07  1.57e-01    3.036397e+00   8.355824e-02   1.282731e-01  -2.007378e-01   1.267637e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.0102937
+rel. change during last iteration : -8.50974e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0717415
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00514684
+p-value of the Chisq distribution (FIT_P)              : 0.994866
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C4              = 3.0364           +/- 0.6981       (22.99%)
+d4              = 0.0835582        +/- 0.09487      (113.5%)
+a4              = 0.128273         +/- 0.0698       (54.42%)
+b4              = -0.200738        +/- 0.01579      (7.868%)
+z4              = 1.26764          +/- 0.3594       (28.35%)
+
+correlation matrix of the fit parameters:
+                C4     d4     a4     b4     z4     
+C4              1.000 
+d4             -0.980  1.000 
+a4              0.976 -0.933  1.000 
+b4              0.706 -0.622  0.830  1.000 
+z4              0.953 -0.993  0.896  0.572  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:55 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.3535978_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: j(x)
+	j(x) = C5*((1+d5*x**(2*z5))/((x**2+a5)**2+b5**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C5            d5            a5            b5            z5           
+   0 9.4992737266e-03   0.00e+00  1.75e+00    5.014747e+00   6.791960e-02   1.408825e+00   3.044938e-01   1.219793e+00
+   1 9.4992656970e-03  -8.45e-02  1.75e-01    5.014875e+00   6.791902e-02   1.408848e+00   3.044931e-01   1.219779e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00949927
+rel. change during last iteration : -8.45288e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0689176
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00474963
+p-value of the Chisq distribution (FIT_P)              : 0.995262
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C5              = 5.01488          +/- 5.787        (115.4%)
+d5              = 0.067919         +/- 0.2342       (344.8%)
+a5              = 1.40885          +/- 1.576        (111.8%)
+b5              = 0.304493         +/- 3.411        (1120%)
+z5              = 1.21978          +/- 0.7719       (63.28%)
+
+correlation matrix of the fit parameters:
+                C5     d5     a5     b5     z5     
+C5              1.000 
+d5             -0.992  1.000 
+a5              0.995 -0.975  1.000 
+b5             -0.975  0.941 -0.992  1.000 
+z5              0.972 -0.994  0.947 -0.903  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:55 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.4212325_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: k(x)
+	k(x) = C6*((1+d6*x**(2*z6))/((x**2+a6)**2+b6**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C6            d6            a6            b6            z6           
+   0 4.5357046556e-02   0.00e+00  2.26e+00    4.021496e-01   2.613370e+00   4.422923e-01   3.728895e-01   9.000537e-01
+   1 4.5357022960e-02  -5.20e-02  2.26e-01    4.021428e-01   2.613477e+00   4.422920e-01   3.728868e-01   9.000447e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.045357
+rel. change during last iteration : -5.20234e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.150594
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0226785
+p-value of the Chisq distribution (FIT_P)              : 0.977577
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C6              = 0.402143         +/- 4.763        (1184%)
+d6              = 2.61348          +/- 34.64        (1326%)
+a6              = 0.442292         +/- 0.5641       (127.5%)
+b6              = 0.372887         +/- 4.77         (1279%)
+z6              = 0.900045         +/- 0.4207       (46.74%)
+
+correlation matrix of the fit parameters:
+                C6     d6     a6     b6     z6     
+C6              1.000 
+d6             -1.000  1.000 
+a6              0.838 -0.823  1.000 
+b6              0.997 -0.999  0.793  1.000 
+z6              0.958 -0.965  0.651  0.976  1.000 
+
+
+*******************************************************************************
+Wed Apr  6 20:35:55 2022
+
+
+FIT:    data read from "gluon_media_propagadorlongfisico_N12_NT4_beta2.5095845_momento1.txt" using 4:5:6
+        format = x:z:s
+        x range restricted to [-0.100000 : 6.00000]
+        #datapoints = 7
+function used for fitting: l(x)
+	l(x) = C7*((1+d7*x**(2*z7))/((x**2+a7)**2+b7**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   C7            d7            a7            b7            z7           
+   0 6.2161825590e-03   0.00e+00  2.42e+00    8.994573e+00   1.554646e-02   2.787929e+00   2.531967e+00   1.429753e+00
+   2 6.2153382974e-03  -6.58e-02  2.42e-02    8.995424e+00   1.554565e-02   2.788206e+00   2.531800e+00   1.429838e+00
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.00621534
+rel. change during last iteration : -6.57545e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0557465
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00310767
+p-value of the Chisq distribution (FIT_P)              : 0.996897
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+C7              = 8.99542          +/- 4.832        (53.72%)
+d7              = 0.0155456        +/- 0.02677      (172.2%)
+a7              = 2.78821          +/- 1.7          (60.98%)
+b7              = 2.5318           +/- 0.4776       (18.86%)
+z7              = 1.42984          +/- 0.3233       (22.61%)
+
+correlation matrix of the fit parameters:
+                C7     d7     a7     b7     z7     
+C7              1.000 
+d7             -0.975  1.000 
+a7              0.989 -0.937  1.000 
+b7             -0.751  0.617 -0.839  1.000 
+z7              0.940 -0.992  0.888 -0.533  1.000 
