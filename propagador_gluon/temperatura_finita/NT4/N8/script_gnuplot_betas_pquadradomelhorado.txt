@@ -1,15 +1,15 @@
 set xrange [-0.1:32.0]
-set yrange [-0.1:7.0]
+set yrange [-1.0:39.0]
 set ylabel "D_T(p^2)/a^2 [Gev^{-2}]"   font ", 12"
 set xlabel "a^2 p^2 [Gev^2]"   font ", 12"
 set title "Gluon Propagator; 8^3 4"  font ",14"
 set tics font ", 12"
 set key font ",12"
-plot "gluon_media_propagadortransfisico_N8_NT4_beta2.2989500_momento1.txt" using 2:5:6 t "T/Tc = 1.00" with yerrorbars pt 7 lc 1
-rep "gluon_media_propagadortransfisico_N8_NT4_beta2.3048581_momento1.txt" using 2:5:6 t "T/Tc = 1.02" with yerrorbars pt 7 lc 2
-rep "gluon_media_propagadortransfisico_N8_NT4_beta2.3135185_momento1.txt" using 2:5:6 t "T/Tc = 1.05" with yerrorbars pt 7 lc 3
-rep "gluon_media_propagadortransfisico_N8_NT4_beta2.3274471_momento1.txt" using 2:5:6 t "T/Tc = 1.10" with yerrorbars pt 7 lc 8	
-rep "gluon_media_propagadortransfisico_N8_NT4_beta2.3535978_momento1.txt" using 2:5:6 t "T/Tc = 1.20" with yerrorbars pt 7 lc 5
-rep "gluon_media_propagadortransfisico_N8_NT4_beta2.4212325_momento1.txt" using 2:5:6 t "T/Tc = 1.50" with yerrorbars pt 7 lc 6	
-rep "gluon_media_propagadortransfisico_N8_NT4_beta2.5095845_momento1.txt" using 2:5:6 t "T/Tc = 2.00" with yerrorbars pt 7 lc 7
+plot "gluon_media_propagadorlongfisico_N8_NT4_beta2.2989500_momento1.txt" using 2:5:6 t "T/Tc = 1.00" with yerrorbars pt 7 lc 1
+rep "gluon_media_propagadorlongfisico_N8_NT4_beta2.3048581_momento1.txt" using 2:5:6 t "T/Tc = 1.02" with yerrorbars pt 7 lc 2
+rep "gluon_media_propagadorlongfisico_N8_NT4_beta2.3135185_momento1.txt" using 2:5:6 t "T/Tc = 1.05" with yerrorbars pt 7 lc 3
+rep "gluon_media_propagadorlongfisico_N8_NT4_beta2.3274471_momento1.txt" using 2:5:6 t "T/Tc = 1.10" with yerrorbars pt 7 lc 8	
+rep "gluon_media_propagadorlongfisico_N8_NT4_beta2.3535978_momento1.txt" using 2:5:6 t "T/Tc = 1.20" with yerrorbars pt 7 lc 5
+rep "gluon_media_propagadorlongfisico_N8_NT4_beta2.4212325_momento1.txt" using 2:5:6 t "T/Tc = 1.50" with yerrorbars pt 7 lc 6	
+rep "gluon_media_propagadorlongfisico_N8_NT4_beta2.5095845_momento1.txt" using 2:5:6 t "T/Tc = 2.00" with yerrorbars pt 7 lc 7
 #
